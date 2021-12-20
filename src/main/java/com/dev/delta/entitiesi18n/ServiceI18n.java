@@ -1,0 +1,108 @@
+package com.dev.delta.entitiesi18n;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name="servicei18n")
+public class ServiceI18n {
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	Long id;
+	String  service_nameI18n;
+	String  chargeI18n;
+	String  descriptionI18n;
+	String   taxI18n;
+	String langI18n;
+	String allTitleI18n;
+	String editTitleI18n;
+	String addTitleI18n;
+	String addButtonI18n;
+	String editButtonI18n;
+	String resetButtonI18n;
+	String closeButtonI18n;
+	
+	
+	public String getAllTitleI18n() {
+		return allTitleI18n;
+	}
+	public void setAllTitleI18n(String allTitleI18n) {
+		this.allTitleI18n = allTitleI18n;
+	}
+	public String getEditTitleI18n() {
+		return editTitleI18n;
+	}
+	public void setEditTitleI18n(String editTitleI18n) {
+		this.editTitleI18n = editTitleI18n;
+	}
+	public String getAddTitleI18n() {
+		return addTitleI18n;
+	}
+	public void setAddTitleI18n(String addTitleI18n) {
+		this.addTitleI18n = addTitleI18n;
+	}
+	public String getAddButtonI18n() {
+		return addButtonI18n;
+	}
+	public void setAddButtonI18n(String addButtonI18n) {
+		this.addButtonI18n = addButtonI18n;
+	}
+	public String getEditButtonI18n() {
+		return editButtonI18n;
+	}
+	public void setEditButtonI18n(String editButtonI18n) {
+		this.editButtonI18n = editButtonI18n;
+	}
+	public String getResetButtonI18n() {
+		return resetButtonI18n;
+	}
+	public void setResetButtonI18n(String resetButtonI18n) {
+		this.resetButtonI18n = resetButtonI18n;
+	}
+	public String getCloseButtonI18n() {
+		return closeButtonI18n;
+	}
+	public void setCloseButtonI18n(String closeButtonI18n) {
+		this.closeButtonI18n = closeButtonI18n;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getService_nameI18n() {
+		return service_nameI18n;
+	}
+	public void setService_nameI18n(String service_nameI18n) {
+		this.service_nameI18n = service_nameI18n;
+	}
+	public String getChargeI18n() {
+		return chargeI18n;
+	}
+	public void setChargeI18n(String chargeI18n) {
+		this.chargeI18n = chargeI18n;
+	}
+	public String getDescriptionI18n() {
+		return descriptionI18n;
+	}
+	public void setDescriptionI18n(String descriptionI18n) {
+		this.descriptionI18n = descriptionI18n;
+	}
+	public String getTaxI18n() {
+		return taxI18n;
+	}
+	public void setTaxI18n(String taxI18n) {
+		this.taxI18n = taxI18n;
+	}
+	public String getLangI18n() {
+		return langI18n;
+	}
+	public void setLangI18n(String langI18n) {
+		this.langI18n = langI18n;
+	}
+	
+	
+	
+}
